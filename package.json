@@ -1,0 +1,29 @@
+{
+  "name": "postcard-collage",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "test": "node --experimental-strip-types --test tests/layout.test.mjs",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "6.3.1",
+    "@dnd-kit/sortable": "10.0.0",
+    "@dnd-kit/utilities": "3.2.2",
+    "lucide-react": "0.577.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.3.5",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "playwright": "1.65.0",
+    "tailwindcss": "4.3.5",
+    "typescript": "5.9.3",
+    "vite": "7.3.7"
+  }
+}
