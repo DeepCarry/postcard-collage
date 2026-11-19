@@ -2,6 +2,15 @@
 
 用 Postcard 把旅途中的照片排成一张明信片式拼图。打开编辑器即可用内置样片试排，也可以导入自己的横竖照片。照片的解码、裁切和导出均在浏览器内完成。
 
+![Postcard 桌面编辑器，中央显示旅行拼图，左右是模板与画布设置](docs/screenshots/desktop.png)
+
+<details>
+<summary>查看移动端截图</summary>
+
+<img src="docs/screenshots/mobile.png" alt="Postcard 移动端编辑器，照片列表和设置位于拼图预览下方" width="320">
+
+</details>
+
 ## 功能
 
 - 五种模板随照片数量和方向调整布局，包括旅行画报、经典网格、自由拼贴、拍立得和电影胶片。
